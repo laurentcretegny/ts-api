@@ -11,11 +11,11 @@ from datetime import datetime
 # ============================================================================
 # CONFIGURATION - Replace with your actual credentials
 # ============================================================================
-GPSGATE_API_TOKEN = "v2:MDAwMDAwMDAwODplOTRjMGEwZDNlMTAxMmJhMDJiMQ=="  # Replace with your actual GpsGate token
+GPSGATE_API_TOKEN = "v2:MDAwMDAwMDAwODpiMWE3ZjQwZmI0NDEzYjAwMzcyNw=="  # Replace with your actual GpsGate token
 GPSGATE_BASE_URL = "https://terrasport.gpsgate.com/comGpsGate/api/v.1"
 
-VPDESK_API_KEY = "101d9a87-da95-b528-bc70-66994dd887e3"  # Replace with your actual VP Desk 9 API key
-VPDESK_BASE_URL = "http://b167-s10/vplanning/api/v2"
+VPDESK_API_KEY = "206f964b-4ab8-b1e5-88b7-57baf0db7829"  # Replace with your actual VP Desk 9 API key
+VPDESK_BASE_URL = "http://b167-s10/vplanning/api/v2"  # VP Desk 9 server (use b167-s10 on host, 10.101.2.4 in container if network allows)
 VPDESK_RESOURCE_UID = "CAB9-A6A7-6B20-5667-49A7-EDD0-1C31-DA77"  # The resource to update
 
 # ============================================================================
